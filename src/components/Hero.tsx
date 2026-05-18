@@ -100,7 +100,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.9, x: 20 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 1, delay: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="flex absolute right-4 md:right-12 top-[12%] md:top-[60%] -translate-y-1/2 glass-panel !bg-[#060e0a]/40 p-3 md:p-5 rounded-[1rem] md:rounded-[1.5rem] max-w-[200px] md:max-w-[280px] flex-col gap-3 md:gap-4 shadow-[0_30px_60px_rgba(0,0,0,0.6)] overflow-hidden group hover:border-surya-highlight/50 transition-colors duration-500 scale-[0.8] md:scale-100 origin-right z-10"
+          className="flex absolute right-4 md:right-12 top-[8%] md:top-[60%] -translate-y-1/2 glass-panel !bg-[#060e0a]/40 p-3 md:p-5 rounded-[1rem] md:rounded-[1.5rem] max-w-[200px] md:max-w-[280px] flex-col gap-3 md:gap-4 shadow-[0_30px_60px_rgba(0,0,0,0.6)] overflow-hidden group hover:border-surya-highlight/50 transition-colors duration-500 scale-[0.8] md:scale-100 origin-right z-10"
         >
           <motion.div
             animate={{ y: [0, -10, 0] }}
